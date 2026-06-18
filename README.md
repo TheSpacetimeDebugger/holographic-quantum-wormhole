@@ -18,7 +18,7 @@
 [![Qiskit](https://img.shields.io/badge/Qiskit-1.0%2B-6929C4?logo=qiskit)](https://qiskit.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Physics](https://img.shields.io/badge/Physics-AdS%2FCFT%20·%20SYK-red)](.)
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20752271.svg)](https://doi.org/10.5281/zenodo.20752271)
 </div>
 
 ---
