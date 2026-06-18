@@ -1,0 +1,17 @@
+# ──────────────────────────────────────────────────────────────────────────
+#  Quantum Chrono Core v2 — Python Dependencies
+#  Author : Ibrahim El-Shami (TheSpacetimeDebugger) · Astmize Studio
+#  Target : Python 3.10+
+# ──────────────────────────────────────────────────────────────────────────
+
+# Quantum computing framework (IBM Qiskit 1.x — new unified SDK)
+qiskit>=1.0.0
+
+# Qiskit Aer high-performance simulator backend
+qiskit-aer>=0.14.0
+
+# Numerical computing — array ops, linear algebra, random number generation
+numpy>=1.26.0
+
+# Scientific computing — matrix exponential (expm), eigensolvers, ODE integrators
+scipy>=1.11.0

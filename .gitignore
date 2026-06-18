@@ -1,0 +1,113 @@
+# ──────────────────────────────────────────────────────────────────────────
+#  Quantum Chrono Core v2 — .gitignore
+#  Author : Ibrahim El-Shami (TheSpacetimeDebugger) · Astmize Studio
+# ──────────────────────────────────────────────────────────────────────────
+
+# ── Python bytecode & cache ───────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# ── Virtual environments ──────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+.env/
+
+# ── Distribution / packaging ──────────────────────────────────────────────
+dist/
+build/
+*.egg-info/
+*.egg
+MANIFEST
+.eggs/
+
+# ── Installer caches ──────────────────────────────────────────────────────
+pip-log.txt
+pip-delete-this-directory.txt
+.pip/
+
+# ── Testing & coverage ────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+*.cover
+.tox/
+.nox/
+nosetests.xml
+
+# ── Type checking ─────────────────────────────────────────────────────────
+.mypy_cache/
+.pytype/
+.pyre/
+.dmypy.json
+dmypy.json
+
+# ── Jupyter / IPython ─────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+profile_default/
+ipython_config.py
+
+# ── Qiskit logs & result caches ───────────────────────────────────────────
+*.qasm
+qiskit_cache/
+ibmq_credentials.json
+.qiskit/
+
+# ── NumPy / SciPy artefacts ───────────────────────────────────────────────
+*.npy
+*.npz
+*.mat
+
+# ── IDE — VS Code ─────────────────────────────────────────────────────────
+.vscode/
+*.code-workspace
+
+# ── IDE — JetBrains / PyCharm ─────────────────────────────────────────────
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# ── IDE — Sublime Text ────────────────────────────────────────────────────
+*.sublime-project
+*.sublime-workspace
+
+# ── macOS system files ────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ── Windows system files ──────────────────────────────────────────────────
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ── Linux system files ────────────────────────────────────────────────────
+*~
+
+# ── Environment / secrets ─────────────────────────────────────────────────
+.env
+.env.*
+*.env
+secrets.py
+secrets.json
+
+# ── Documentation build ───────────────────────────────────────────────────
+docs/_build/
+site/
+
+# ── Simulation output artefacts ───────────────────────────────────────────
+results/
+outputs/
+*.log
+*.out
