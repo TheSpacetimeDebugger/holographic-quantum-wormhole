@@ -182,8 +182,6 @@ def inject_payload(rho_tfd: NDArray, psi_payload: NDArray,
     # rho_tfd shape (d, d), qubit 0 is the most-significant bit
     d_rest = d // 2
     rho_tfd_r = rho_tfd.reshape(2, d_rest, 2, d_rest)
-    rho_rest = np.einsum('iaia->aa', rho_tfd_r)   # trace over qubit-0 ← wrong index, fix:
-    # correct einsum: sum over qubit-0 index on both sides
     rho_rest = rho_tfd_r[0, :, 0, :] + rho_tfd_r[1, :, 1, :]   # shape (d_rest, d_rest)
 
     # Build full state: payload ⊗ rest
